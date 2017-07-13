@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #f2f2f2;
+  color: rgb(171, 178, 190);
+  letter-spacing: -.02em;
+  font-weight: 400;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+body, .wrapper, .projects, li, footer {
+  display: flex;
+}
+
+body, .wrapper, li, footer {
+  flex-direction: column;
+}
+
+.main-intro {
+  margin: 1em 0;
+}
+
+.main-intro h2 {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.main-intro p {
+  font-size: 1.2em;
+}
+
+.twitter {
+  margin-bottom: 2em;
+}
+
+.projects {
+  flex-wrap: wrap;
+}
+
+li {
+  width: 350px;
+  height: 300px;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin: 1em;
+  box-shadow: 0 .5em 3em rgba(0, 0, 0, .1);
+}
+
+li svg {
+  width: 6em;
+  margin: 1em 0;
+}
+
+.node {
+  fill: #339933;
+}
+
+.dribbble {
+  fill: #EA4C89;
+}
+
+li p {
+  text-align: center;
+  text-decoration: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: slategray;
+}
+
+footer {
+  margin: 3em 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  height: 1.5em;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.3);
+  }
+}
+
+.love {
+  color: tomato;
+  display: inline-block;
+  position: relative;
+  animation: pulse 1s infinite linear alternate-reverse;
+}
+
+@media (min-width: 768px) {
+
+  .wrapper {
+    max-width: 960px;
+  }
+
+  .main-intro {
+    margin-top: 2em;
+  }
+
+  .main-intro {
+    font-size: 1.25em;
+  }
+}
