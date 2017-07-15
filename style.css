@@ -89,6 +89,10 @@ body, p {
   background: black;
 }
 
+.linkedin {
+  background: #0077B5;
+}
+
 footer {
   margin-top: 2em;
   color: slategray;
