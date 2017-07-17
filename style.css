@@ -34,14 +34,14 @@ body, p {
 }
 
 .project {
-  height: 140px; 
+  height: 160px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   flex: 1 300px;
-  padding: 3em;
+  padding: 2em;
   margin: 1.2em;
   border-radius: .5em;
   transition: transform .5s;
