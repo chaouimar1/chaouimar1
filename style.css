@@ -107,10 +107,9 @@ footer a {
   margin: 0 .25em;
 }
 
-@media (min-width: 768px) {
+@media (min-device-width: 768px) and (min-device-width: 1024px) {
   .project {
-    flex: 1 260px;
-    position: relative;
+    flex: 1 200px;
   }
 }
 
