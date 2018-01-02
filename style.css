@@ -66,15 +66,11 @@ body, p {
 }
 
 .twitter {
-  margin: 2em 0;
+  background: #00aced;
 }
 
-.node {
-  background: #339933;
-}
-
-.dribbble {
-  background: #EA4C89;
+.googleplus {
+  background: #d34836;
 }
 
 .insta {
@@ -85,8 +81,8 @@ body, p {
   background: #181717;
 }
 
-.codepen {
-  background: black;
+.facebook {
+  background: #3a5998;
 }
 
 .linkedin {
@@ -123,4 +119,11 @@ footer a {
   .project:hover {
     transform: scale(1.1);
   }
+}
+
+.meruc{
+    color: #7e57c2;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 500;
 }
